@@ -1,0 +1,12 @@
+hibernate:
+  connection:
+    driver_class: "org.postgresql.Driver"
+    url: "jdbc:postgresql://127.0.0.1:8100/essamdb"
+    username: "postgres"
+    password: "13579"
+  current_session_context_class: "org.hibernate.context.internal.ThreadLocalSessionContext"
+  proc:
+    param_null_passing: "true"
+show_sql: "true"
+hbm2ddl:
+  auto: "update"
